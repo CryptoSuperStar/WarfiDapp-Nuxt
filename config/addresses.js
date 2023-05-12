@@ -1,0 +1,121 @@
+// export default {
+//   Handler: '0xEa8129f602E0CFDD9FBa116e07fb04A13AFdc48a',
+//   Token: '0x6C1c0319d8dDcb0ffE1a68C5b3829Fd361587DB4',
+//   Swapper: '0xe98bCAE5134d840F29F89C4ca0C88383C1C8021E',
+//   PolarLuckyBox: '0x69E7ca9f079a8C6258A15E2B46bbD95791F39E4a',
+//   PolarNode: '0x0217485Eb50BBd886b14F7Ba5ecD0F03d3069779',
+//   MarketPlace: '0xb8656Cf6f863eC38869cdcdB1f9E6E17608DaF20',
+//   Dai: '0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
+//   Old: '0x2Ec1849e12E1264DB7379F5d17ECcf5a94cf5Fe8',
+//   Lottery: '0x94717b7887e400b80dcE002368e08B47c78dcA35',
+// };
+//testnet
+// export default {
+//   Token: '0x09204F5b7c273ccca1804A7fb10323d4b97ede88',
+//   SpringNode: '0x0149b7816Ee335Aed9dAD10BDF6e9ed00875dC6F',
+//   Handler: '0xB78ed8D7C6146FF4aC3EC78590102768B233bdB9',
+ 
+//   Swapper: '0x997B5021a135d5fE55c0e21d64206Cd2159b51d5',
+//   SpringLuckyBox: '0x8fd8741EDC5C4d2012b0fAe2769BAb77B7dd2fF7',
+//   SpringPlot: '0x25C4CB5254c9F734e09D02d2Aae35Cb3C5D12425',
+  
+//   MarketPlace: '0xA71DC457ed7E230Ee06EC6B1D62f70573273eC2d',
+//   springMarketPlace: '0xA71DC457ed7E230Ee06EC6B1D62f70573273eC2d',
+//   presale: '0x70F894b5c4E08F018E92005e0bFaD4f7E9efD82b', //for test
+//   // presale: '0xbB1149BE166460f528C46050419C091961D6E380',
+//   // busd: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", //for mainnet
+// };
+// testnet v1
+// export default {
+//   Token: '0xA46ede27A62E4722ca542EB89DC610a41d316C64',
+//   SpringNode: '0x016c6A1A6fb06669451334d83C1504E83aCfC04A',
+//   Handler: '0xC00cF96fc930097FE72F1358e6C083A12AeC820b',
+ 
+//   Swapper: '0x3f134e615DC0CfE86BA8764045739b2e3cb626E6',
+//   SpringLuckyBox: '0x38af76819E4F47260C3A8343b8B7Cf8d9625E2e4',
+//   SpringPlot: '0xE7969076cD40987a908D7082FBDC95a4dE80b579',
+  
+//   springMarketPlace: '0x5Fd98aE006E6Eae0129bfE610f8813eb55E14893',
+//   MarketPlace: '0x5Fd98aE006E6Eae0129bfE610f8813eb55E14893',
+//   presale: '0xbB1149BE166460f528C46050419C091961D6E380', 
+//   // presale: '0xbB1149BE166460f528C46050419C091961D6E380',
+//   // busd: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", //for mainnet
+//   busd:"0x26d2E53380b845fEcD35C3ee52Ef5C77FA6aCDEF",
+
+//   charity : '0x4698a4A39A7ae2bFE7311ca523d1BB7C6D2b9f09'
+// };
+//mainnet v2
+// export default {
+//   Token: '0xaf0bd10E1b6B995E54F342C78DACd25291e0d3B2',
+//   SpringNode: '0x2DD35Aae8e2A8F8B1E7222A521CDAe4e1d0C582D',
+//   Handler: '0x4C9F660EAd882b96d39E0A222c1aD18D8C065F84',
+ 
+//   Swapper: '0xc0DcD44d701A9A908b4C036C78D992FF7F415D23',
+//   SpringLuckyBox: '0xD8cC22a3170c19C73eD26629E4b6fB2452FE678a',
+//   SpringPlot: '0x9323CB0bCCa36E55f28f8B7dEEaf405d59E8aB65',
+  
+//   springMarketPlace: '0xfC6242854C0aaCBeD3333d86060866A1Ad759056',
+//   MarketPlace: '0xfC6242854C0aaCBeD3333d86060866A1Ad759056',
+
+//   presale: '0xf19288ee78D52fb3468FF3c1889A329940Ca2bF9',
+//   //mainet
+//   //testnet
+//   // presale: '0xdaa8df7aa943406c13fe4b3d5cea078d078b7551', 
+//   busd:"0xe9e7cea3dedca5984780bafc599bd69add087d56",
+
+//   charity : '0x0550329F29AeEEeC1DcF0022a78C20d452dC9A91'
+// };
+
+
+//localhost
+// export default {
+//   Token: '0x242E89de3327c4B2E5B675CD4171e8206B395Fa8',
+//   SpringNode: '0xA2673cE9b5D0cd3B64CCd3BC0F83F942A5E978ca',
+//   Handler: '0x3EdC7202f63F12664899E51b8285592ca3F8F9D1',
+ 
+//   Swapper: '0x6a8c66f7A199a661b2A31B0c6551d25d86f9803f',
+//   SpringLuckyBox: '0x996aD79b0a2740C9b7c69F0AE7Ce61B5eA750CF5',
+//   SpringPlot: '0x11024AF043F648B9A24460313226C227b98d79c5',
+  
+//   springMarketPlace: '0xD04048A260363f05B526a8D9C2743135D727d02d',
+//   MarketPlace: '0xD04048A260363f05B526a8D9C2743135D727d02d',
+
+//   presale: '0xd594b5c3341bb99d4eed6f315d67cd4b60633cb6',
+//   //mainet
+//   //testnet
+//   // presale: '0xdaa8df7aa943406c13fe4b3d5cea078d078b7551', 
+//   busd:"0xc3968EBDEe5bB490FB540083C70B407692348370",
+
+//   charity : '0x0550329F29AeEEeC1DcF0022a78C20d452dC9A91'
+// };
+
+//testnet
+export default {
+  Token: '0xF2FAB804C4Bbd38CdbbF20394dfD223095edA0ae',
+  SpringNode: '0xdC872c5ABF55C5e1D26f3749a1054f2d95eB0CB0',
+  Handler: '0x23487DaEd38081259D808917e399b0Cd2ae5E60f',
+ 
+  Swapper: '0xE6aa610b327E09fA8FB3d7a39F9d879998A95e68',
+  SpringLuckyBox: '0xa78F96eF16Ea94c95e4d9b9F2367274EcAf8fF55',
+  SpringPlot: '0x157349c3740977Ce9Fc2B224BF201C73b3E0CDa9',
+  
+  springMarketPlace: '0x38af3E56C62d917886D5c7E461dF995A01b751fe',
+  MarketPlace: '0x38af3E56C62d917886D5c7E461dF995A01b751fe',
+  Presale: '0xf19288ee78D52fb3468FF3c1889A329940Ca2bF9',
+  presale: '0xf19288ee78D52fb3468FF3c1889A329940Ca2bF9',
+  //mainet
+  //testnet
+  // presale: '0xdaa8df7aa943406c13fe4b3d5cea078d078b7551', 
+  busd:"0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+
+  charity : '0x0550329F29AeEEeC1DcF0022a78C20d452dC9A91'
+};
+
+// setOpenToTrading
+
+// token = await ethers.getContract("Kill")
+// lm = await ethers.getContract("LiquidityManager")
+// await lm.setRouter("0x10ED43C718714eb63d5aA57B78B54704E256024E")
+// await token.setOpenToTrading(true)
+// await lm.setPriceRange("1000000000000000000","1100000000000000000")
+// await token.setOpenToTrading(false)

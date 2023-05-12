@@ -1,0 +1,254 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Fertilizers",
+  "sourceName": "contracts/Fertilizers.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "version",
+          "type": "uint8"
+        }
+      ],
+      "name": "Initialized",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "nodeType",
+          "type": "string"
+        }
+      ],
+      "name": "getFertilizerPriceByNameAndNodeType",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "name": "getFertilizerType",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "durationEffect",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "rewardBoost",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "globalLimit",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "userLimit",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "userNodeTypeLimit",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "nodeLimit",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct Fertilizer",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getFertilizerTypes",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "internalType": "uint256",
+              "name": "durationEffect",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "rewardBoost",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "prices",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256",
+              "name": "globalLimit",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "userLimit",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "userNodeTypeLimit",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "nodeLimit",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct Fertilizers.FertilizerView[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "name": "hasFertilizerType",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "totalCreatedPerNodeTokenId",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "totalCreatedPerType",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "totalCreatedPerUser",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "totalCreatedPerUserPerType",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
